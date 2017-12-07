@@ -1,0 +1,87 @@
+# _config.yml 0.0.6                   UTF-8                      dh:2017-12-03
+#
+#                       SPANNER WINGNUT'S MUDDLEWARE LAB
+#                       ================================
+#
+#                        LANDSCAPE THEME CUSTOMIZATION
+#
+#         source: nfoCentrale/spanner/themes/landscape/_config.yml
+#        archive: $/nfoCentrale/spanner/themes/landscape/_config.yml
+#
+#                         LANDSCAPE CONFIGURATION FILE
+#                         ----------------------------
+#
+#
+
+# Hexo Landscape Theme
+## Preview: https://hexo.io/hexo-theme-landscape
+##  Source: https://github.com/hexojs/hexo-theme-landscape
+##    More: https://github.com/hexojs/awesome-hexo           # 0.0.3
+##          http://jrocket.co.uk/hexo (by John Stevenson)    # 0.0.3
+
+# Header
+menu:
+  Home: /
+  Archives: /hexo-archives                                   # 0.0.5
+  About: /hexo-about     # hat tip to John Stevenson         # 0.0.3         
+rss: /hexo-atom.xml                                          # 0.0.6
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- recent_posts                                                # 0.0.5
+- category
+- tag
+- archive                                                     # 0.0.5
+# - tagcloud removed                                          # 0.0.5
+
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+twitter: 
+google_plus:
+fb_admins:
+fb_app_id:
+  
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# TODO:
+#  * Change the highlight background to a light format, as with 
+#    theme PolarBear.
+#  * Get the atom feed working, and loaded to the correct place.
+#  * Remove the Search option.
+#  * Remove instrumentation (Google stuff).
+#  * Enable MathJax
+#  * Change the Archive page to a simple list format.  Use the Polar Bear model
+#    or a similar one.
+#  * Figure out how i18n ties into menu labels, such as the additional "About"
+
+# 0.0.6 2017-12-03-08:10 Change RSS feed name to hexo-atom.xml, manage TODOs
+# 0.0.5 2017-11-29-07:45 Correct menu to use hexo-archives/, Rearrange sidebar,
+#       manage TODOs
+# 0.0.4 2017-11-21-08:27 Correct file name in heading comment.  Manage TODOs.
+# 0.0.3 2017-11-17-15:58 Manage TODOs, add more documentation links,
+#       Add "About" to the menu.
+# 0.0.2 2017-11-06-09:29 Reflect reorganization under nfoCentrale/spanner/
+# 0.0.1 2017-10-29-19:27 Annotate in preparation for systematic work on
+#       the customization of theme/landmark for the wingnut blog.  Create
+#       initial TODOs
+# 0.0.0 2017-10-25-10:09 Place under source-code management for backup and
+#       recovery, as needed, from modifications.
+#
+#                       **** end of _config.yml ****    
