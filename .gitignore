@@ -1,3 +1,45 @@
+# .gitignore 0.0.2                     UTF-8                    dh:2016-12-07
+#                       SPANNER WINGNUT'S MUDDLEWARE LAB
+#                        ================================
+#                        
+#            source: nfoCentrale/spanner/theme/landscape/.gitignore 
+#
+#                        HEXO LANDSCAPE THEME CUSTOMIZATION
+#                        ----------------------------------
+#
+#              .GITIGNORE FOR AVOIDING EPHEMERAL/DERIVED MATERIAL
+#
+#   This .gitignore file is for the separate customization of the landscape
+#   theme under the Hexo-operated spanner/themes/ folder for Spanner Wingnut.
+
+## ELIMINATE AUTHORING ARTIFACTS
+## -----------------------------
+
+#   jEdit backup and working files
+*~
+*#
+#   Visual Source Safe artifacts
+*.scc
+
+## ELIMINATE EPHEMERAL/DERIVED HEXO MATERIALS
+## ------------------------------------------
+
 .DS_Store
-node_modules
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
 tmp
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# 0.0.2 2017-12-07-13:48 Transpose for use with the separate theme/landscape
+#       Git project.
+# 0.0.1 2017-12-06-17:17 Decorate for nfoCentrale/spanner usage
+# 0.0.0 2017-10-25-10:09 Initial .gitignore from Hexo Install
+
+
+#                    *** end of .gitignore ***
