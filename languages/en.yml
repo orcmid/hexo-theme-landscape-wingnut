@@ -1,0 +1,66 @@
+# en.yml 0.0.2                       UTF-8                      dh:2017-11-05
+#
+#                       SPANNER WINGNUT'S MUDDLEWARE LAB
+#                       ================================
+#
+#                     LANDSCAPE THEME LANGUAGE CUSTOMIZATION
+#
+#         source: nfoCentrale/spanner/themes/landscape/languages/en.yml
+#         mirror: nfoCentrale/spanner/source/about/en.yml
+#         upload: http://orcmid.com/BlunderDome/wingnut/about/en.yml
+#         archive: $HexoSpanner/themes/landscape/languages/en.yml
+#          
+#         This file is a derivative of the languages/default.yml file
+#         provided as part of the Hexo install default landscape theme.
+#
+#                           ENGLISH-LANGUAGE LABELS
+#                           -----------------------
+#
+#    These are the English text to be used on English (en) pages, for the
+#    identified labels.  
+#    
+#    This duplicates the current default.yml language entry.  It is replicated
+#    in an explicit en.yml file to avoid an error in default determination in
+#    the initially-installed Hexo setup.
+#
+#    Changes to these definitions should also be reflected in default.yml.
+
+categories: Categories
+search: Search
+tags: Tags
+tagcloud: Tag Cloud
+tweets: Tweets
+prev: Prev
+next: Next
+comment: Comments
+archive_a: Archives
+archive_b: "Archives: %s"
+page: Page %d
+recent_posts: Recent Posts
+newer: Newer
+older: Older
+share: Share
+powered_by: Powered by
+rss_feed: RSS Feed
+category: Category
+tag: Tag
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# TODO:
+#  * Changes to this page needs to be reflected in the English default.yml
+#    and synchronization maintained.
+#  * Find out how Home, Archive, and About are localized.
+#  * Determine how additions are made here, and what is done in other theme
+#    and base materials to make use of them.
+
+# 0.0.2 2017-11-05-16:19 Correct for the restructuring of the wingnut authoring
+#       folder to be spanner/.  Manage TODOs, Add dependencies/connections.
+# 0.0.1 2017-10-29-18:10 Annotate the page and place it under version
+#       control.  No modifications other than addition of identifying
+#       comments, TODOs, and version history under landscape/languages/.
+# 0.0.0 2017-10-29-13:07 copy the 2017-10-25 initially-installed languages/
+#       default.yml file to en.yml and confirm that it causes correct 
+#       localization on all pages, not just posts. 
+#
+#                        **** end of en.yml ****  
