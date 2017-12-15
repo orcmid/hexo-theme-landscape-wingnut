@@ -1,4 +1,4 @@
-# _config.yml 0.0.6                   UTF-8                      dh:2017-12-03
+# _config.yml 0.0.7                   UTF-8                      dh:2017-12-15
 #
 #                       SPANNER WINGNUT'S MUDDLEWARE LAB
 #                       ================================
@@ -63,7 +63,6 @@ fb_app_id:
 # TODO:
 #  * Change the highlight background to a light format, as with 
 #    theme PolarBear.
-#  * Get the atom feed working, and loaded to the correct place.
 #  * Remove the Search option.
 #  * Remove instrumentation (Google stuff).
 #  * Enable MathJax
@@ -71,6 +70,8 @@ fb_app_id:
 #    or a similar one.
 #  * Figure out how i18n ties into menu labels, such as the additional "About"
 
+# 0.0.7 2017-12-15-08:49 Manage TODOs, reflecting that RSS feed integration
+#       is accomplished
 # 0.0.6 2017-12-03-08:10 Change RSS feed name to hexo-atom.xml, manage TODOs
 # 0.0.5 2017-11-29-07:45 Correct menu to use hexo-archives/, Rearrange sidebar,
 #       manage TODOs
