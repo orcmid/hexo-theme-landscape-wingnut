@@ -1,3 +1,11 @@
+// header.styl 1.0.2                 UTF-8                      dh:2017-12-15
+//                     HEXO-THEME-LANDSCAPE-WINGNUT
+//                     ============================
+//
+//                themes/landscape/source/css/_partial/header.styl
+//
+//                    SPANNER WINGNUT CUSTOMIZATION
+
 #header
   height: banner-height
   position: relative
@@ -41,10 +49,12 @@
   left: 0
   margin-top: logo-size * -0.5
 
+// TITLE AND SUBTITLE BANNER TEXT                    // 1.0.2
+// Standout clearly against photographic background
 $logo-text
   text-decoration: none
   color: #fff
-  font-weight: 300
+  font-weight: 600 // replacing default 300          // 1.0.2
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3)
 
 #logo
@@ -66,10 +76,11 @@ $logo-text
   float: left
   margin-left: -15px
 
+// LINKS ON THE MAIN NAVIGATION BAR                // 1.0.1
 $nav-link
   float: left
   color: #fff
-  opacity: 0.6
+  opacity: 1           // replace default 0.6      // 1.0.1        
   text-decoration: none
   text-shadow: 0 1px rgba(0, 0, 0, 0.2)
   transition: opacity 0.2s
@@ -77,6 +88,9 @@ $nav-link
   padding: 20px 15px
   &:hover
     opacity: 1
+    color: #f99157  // emphasis (highlight-orange) // 1.0.1
+    text-decoration: underline                     // 1.0.1
+    
 
 .nav-icon
   @extend $nav-link
@@ -163,3 +177,9 @@ $nav-link
   cursor: pointer
   &:hover, &:focus
     color: #777
+    
+// 1.0.2 2017-12-16-16:50 Strengthen weight of title and subtitle text in banner
+// 1.0.1 2017-12-15-16:06 Change &nav-link to provide brighter buttons and
+//       distinct hover with color and underline.
+// 1.0.0 2017-12-11-13:37 Provided with fresh default hexo-cli install of
+//       themes/landscape 0.0.2
