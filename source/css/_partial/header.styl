@@ -1,4 +1,4 @@
-// header.styl 1.0.2                 UTF-8                      dh:2017-12-15
+// header.styl 1.0.3                 UTF-8                      dh:2017-12-16
 //                     HEXO-THEME-LANDSCAPE-WINGNUT
 //                     ============================
 //
@@ -49,12 +49,12 @@
   left: 0
   margin-top: logo-size * -0.5
 
-// TITLE AND SUBTITLE BANNER TEXT                    // 1.0.2
+// TITLE AND SUBTITLE BANNER TEXT                  // 1.0.2
 // Standout clearly against photographic background
 $logo-text
   text-decoration: none
   color: #fff
-  font-weight: 600 // replacing default 300          // 1.0.2
+  font-weight: 600 // replacing default 300        // 1.0.2
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3)
 
 #logo
@@ -125,60 +125,63 @@ $nav-link
   &:before
     content: "\f09e"
 
-#nav-search-btn
-  &:before
-    content: "\f002"
+//  Remove All Search-Related styling              // 1.0.3
+//* #nav-search-btn
+//*   &:before
+//*     content: "\f002"
 
-#search-form-wrap
-  position: absolute
-  top: 15px
-  width: 150px
-  height: 30px
-  right: -150px
-  opacity: 0
-  transition: 0.2s ease-out
-  &.on
-    opacity: 1
-    right: 0
-  @media mq-mobile
-    width: 100%
-    right: -100%
+//* #search-form-wrap
+//*   position: absolute
+//*   top: 15px
+//*   width: 150px
+//*   height: 30px
+//*   right: -150px
+//*   opacity: 0
+//*   transition: 0.2s ease-out
+//*   &.on
+//*     opacity: 1
+//*     right: 0
+//*   @media mq-mobile
+//*     width: 100%
+//*     right: -100%
 
-.search-form
-  position: absolute
-  top: 0
-  left: 0
-  right: 0
-  background: #fff
-  padding: 5px 15px
-  border-radius: 15px
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+//* .search-form
+//*   position: absolute
+//*   top: 0
+//*   left: 0
+//*   right: 0
+//*   background: #fff
+//*   padding: 5px 15px
+//*   border-radius: 15px
+//*   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
 
-.search-form-input
-  border: none
-  background: none
-  color: color-default
-  width: 100%
-  font: 13px font-sans
-  outline: none
-  &::-webkit-search-results-decoration
-  &::-webkit-search-cancel-button
-    -webkit-appearance: none
+//* .search-form-input
+//*   border: none
+//*   background: none
+//*   color: color-default
+//*   width: 100%
+//*   font: 13px font-sans
+//*   outline: none
+//*   &::-webkit-search-results-decoration
+//*   &::-webkit-search-cancel-button
+//*     -webkit-appearance: none
 
-.search-form-submit
-  position: absolute
-  top: 50%
-  right: 10px
-  margin-top: -7px
-  font: 13px font-icon
-  border: none
-  background: none
-  color: #bbb
-  cursor: pointer
-  &:hover, &:focus
-    color: #777
+//* .search-form-submit
+//*   position: absolute
+//*   top: 50%
+//*   right: 10px
+//*   margin-top: -7px
+//*   font: 13px font-icon
+//*   border: none
+//*   background: none
+//*   color: #bbb
+//*   cursor: pointer
+//*   &:hover, &:focus
+//*     color: #777
     
-// 1.0.2 2017-12-16-16:50 Strengthen weight of title and subtitle text in banner
+// 1.0.3 2017-12-16-12:46 Remove all styles related to the search button and
+//       search-function support.  None of that is wanted.
+// 1.0.2 2017-12-15-16:50 Strengthen weight of title and subtitle text in banner
 // 1.0.1 2017-12-15-16:06 Change &nav-link to provide brighter buttons and
 //       distinct hover with color and underline.
 // 1.0.0 2017-12-11-13:37 Provided with fresh default hexo-cli install of
