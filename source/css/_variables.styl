@@ -1,6 +1,8 @@
-// _variables.styl 1.0.4             UTF-8                      dh:2017-12-11
+// _variables.styl 1.0.5             UTF-8                      dh:2017-12-16
 //                    HEXO LANDSCAPE THEME STYLE VARIABLES
-//         source: spanner/themes/landscape/source/css/_variables.styl// Config
+//         source: spanner/themes/landscape/source/css/_variables.styl
+
+// Config
 support-for-ie = false
 vendor-prefixes = webkit moz ms official
 
@@ -21,10 +23,9 @@ color-pinterest = #cb2027
 color-google = #dd4b39
 
 // Fonts
-font-sans = -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif                                     // 1.0.4
+font-sans = BlinkMacSystemFont, "Arial Unicode MS", "Segoe UI", 
+    "Fira Sans", "Droid Sans", Helvetica, Arial, 
+    sans-serif                                     // 1.0.5
 font-serif = Georgia, "Times New Roman", serif
 font-mono = "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace
 font-icon = FontAwesome
@@ -64,6 +65,9 @@ mq-mobile = "screen and (max-width: 479px)"
 mq-tablet = "screen and (min-width: 480px) and (max-width: 767px)"
 mq-normal = "screen and (min-width: 768px)"
 
+// 1.0.5 2017-12-16-10:34 Restore Helvetica and Arial to font-sans, trim the
+//       landscape 0.0.2 additions, and get Arial Unicode MS high in the list
+//       to satisfy IE10 and Chrome on Windows, not just Edge.
 // 1.0.4 2017-12-11-19:31 Cherry Pick later version from clean install
 // 1.0.3 2017-11-29-09:05 Simplify image filename in hope of repair
 // 1.0.2 2017-11-27-21:42 Switch to new 170px height using a crop of Heavenwards
