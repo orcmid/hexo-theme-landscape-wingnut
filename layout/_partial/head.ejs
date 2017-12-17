@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- head.ejs 1.0.2                UTF-8                     dh:2017-12-17  
+                     SPANNER WINGNUT HEXO THEME LANDSCAPE 
+             https://github.com/orcmid/hexo-theme-landscape-wingnut
+                         /layout/_partial/head.ejs
+                   Customized HTML Page <head> Generation
+    -->
   <meta charset="utf-8">
   <%- partial('google-analytics') %>
   <%
@@ -28,10 +34,17 @@
   <% } %>
   <% if (theme.favicon){ %>
     <link rel="icon" href="<%- theme.favicon %>">
+    <% /* REQUIRES .ico form and absolute URL.  BE CAREFUL   1.0.2 */ %>
   <% } %>
   <% if (config.highlight.enable){ %>
     <!-- Add protocol to fonts.googleapis.com link    1.0.1 -->
     <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   <% } %>
   <%- css('css/style') %>
+<% /* 1.0.2 2017-12-17-10:15 theme.favicon warning.  It takes more to   */ %>
+<% /*       get right.  https://github.com/audreyr/favicon-cheat-sheet  */ %>
+<% /* 1.0.1 2017-12-16-09:35 fix the fonts.gogleapis.com stylesheet     */ %>
+<% /*       URL used when highlight is enabled.  Effect not understood. */ %>
+<% /* 1.0.0 2017-12-11-13:27 Installed with Landscape 0.0.2 as part of  */ %>
+<% /*       Fresh Hexo Install for spanner.                             */ %>
 </head>
