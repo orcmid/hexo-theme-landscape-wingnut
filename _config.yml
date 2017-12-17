@@ -1,4 +1,4 @@
-# _config.yml 0.0.7                   UTF-8                      dh:2017-12-15
+# _config.yml 0.0.8                   UTF-8                      dh:2017-12-17
 #
 #                       SPANNER WINGNUT'S MUDDLEWARE LAB
 #                       ================================
@@ -52,7 +52,7 @@ show_count: false
 
 # Miscellaneous
 google_analytics:
-favicon: /favicon.png
+favicon:  # https://github.com/audreyr/favicon-cheat-sheet  
 twitter: 
 google_plus:
 fb_admins:
@@ -61,15 +61,16 @@ fb_app_id:
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 # TODO:
+#  * To use favicon, see <https://github.com/audreyr/favicon-cheat-sheet>
+#    and also fix the _partial/head.ejs to conform.
 #  * Change the highlight background to a light format, as with 
 #    theme PolarBear.
-#  * Remove the Search option.
-#  * Remove instrumentation (Google stuff).
 #  * Enable MathJax
 #  * Change the Archive page to a simple list format.  Use the Polar Bear model
 #    or a similar one.
 #  * Figure out how i18n ties into menu labels, such as the additional "About"
 
+# 0.0.8 2017-12-17-09:32 Remove favicon default and manage TODOs.   
 # 0.0.7 2017-12-15-08:49 Manage TODOs, reflecting that RSS feed integration
 #       is accomplished
 # 0.0.6 2017-12-03-08:10 Change RSS feed name to hexo-atom.xml, manage TODOs
