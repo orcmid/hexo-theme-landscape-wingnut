@@ -1,14 +1,16 @@
-# Customization of Hexo-Theme-Landscape for Spanner Wingnut's Muddleware Labs *
+# Customization of Hexo-Theme-Landscape for Spanner Wingnut's Muddleware Labs #
 
 ## What This Is ##
 
 This project is *not* a fork of the [`hexo-theme-landscape`](https://github.com/hexojs/hexo-theme-landscape) GitHub project.
 
-This project provices source-code management of the `spanner/theme/landscape/` portion as it was initialized by hexo in the desktop compute development location that is source-code managed with the [`hexo-spanner`](https://github.com/orcmid/hexo-spanner) GitHub project.
+This project provides source-code management of the `spanner/theme/landscape/` portion as it was initialized by hexo in the desktop compute development location that is source-code managed under the [`hexo-spanner`](https://github.com/orcmid/hexo-spanner) GitHub project.
 
-Since this is customization of `hexo-theme-landscape` that is specifically for the [Spanner Wingnut Muddleware Labs](http://orcmid.com/BlunderDome/wingnut) blog, it will not be used to provide patches or extensions to the `original hexo-theme-landscape`.  If there is anything to submit back upstream, it will be by creation of a separate fork and producing commits to push to that project.
+Since this is customization of `hexo-theme-landscape` specifically for the [Spanner Wingnut Muddleware Labs](http://orcmid.com/BlunderDome/wingnut) blog, it will not be used to provide patches or extensions to the `original hexo-theme-landscape`.  If there is anything to submit upstream, it will be by creation of a separate fork and producing commits to push to that project.
 
 The `README.md` file that was included as part of the default `hexo-spanner` initialization has been replaced by this one.
+
+For details and tests of the customization consult the [Spanner Wingnut](http://orcmid.com/BlunderDome/wingnut) blog.  The hexo-specific  [About](http://orcmid.com/BlunderDome/wingnut/hexo-about/) page will be kept current even if the blog's generation changes in the future.
 
 ## Applicable Instructions ##
 
