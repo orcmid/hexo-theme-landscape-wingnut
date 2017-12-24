@@ -94,5 +94,7 @@ All of them are enabled by default. You can edit them in `widget` setting.
 [Grunt]: http://gruntjs.com/
 [hexo-generate-feed]: https://github.com/hexojs/hexo-generator-feed
 
-# 1.0.1 2017-12-24-14:13 Restatement for hexo-theme-landscape-wingnut.
-# 1.0.0 2017-12-11-13:37 Default initial install of hexo-theme-landscape 0.0.2.
+----
+
+. 1.0.1 2017-12-24-14:13 Restatement for hexo-theme-landscape-wingnut.
+. 1.0.0 2017-12-11-13:37 Default initial install of hexo-theme-landscape 0.0.2.
