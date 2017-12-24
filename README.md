@@ -1,31 +1,21 @@
-# Landscape
+# Customization of Hexo-Theme-Landscape for Spanner Wingnut's Muddleware Labs *
 
-A brand new default theme for [Hexo].
+## What This Is ##
 
-- [Preview](http://hexo.io/hexo-theme-landscape/)
+This project is *not* a fork of the [`hexo-theme-landscape`](https://github.com/hexojs/hexo-theme-landscape) GitHub project.
 
-## Installation
+This project provices source-code management of the `spanner/theme/landscape/` portion as it was initialized by hexo in the desktop compute development location that is source-code managed with the [`hexo-spanner`](https://github.com/orcmid/hexo-spanner) GitHub project.
 
-### Install
+Since this is customization of `hexo-theme-landscape` that is specifically for the [Spanner Wingnut Muddleware Labs](http://orcmid.com/BlunderDome/wingnut) blog, it will not be used to provide patches or extensions to the `original hexo-theme-landscape`.  If there is anything to submit back upstream, it will be by creation of a separate fork and producing commits to push to that project.
 
-``` bash
-$ git clone https://github.com/hexojs/hexo-theme-landscape.git themes/landscape
-```
+The `README.md` file that was included as part of the default `hexo-spanner` initialization has been replaced by this one.
 
-**Landscape requires Hexo 2.4 and above.** If you would like to enable the RSS, the [hexo-generate-feed] plugin is also required.
+## Applicable Instructions ##
 
-### Enable
+The following material from the original README.md remail pertinent and has been relied upon.
 
-Modify `theme` setting in `_config.yml` to `landscape`.
 
-### Update
-
-``` bash
-cd themes/landscape
-git pull
-```
-
-## Configuration
+### Configuration ###
 
 ``` yml
 # Header
@@ -65,9 +55,8 @@ google_plus:
 - **twitter** - Twiiter ID
 - **google_plus** - Google+ ID
 
-## Features
 
-### Fancybox
+### Fancybox ###
 
 Landscape uses [Fancybox] to showcase your photos. You can use Markdown syntax or fancybox tag plugin to add your photos.
 
@@ -77,7 +66,7 @@ Landscape uses [Fancybox] to showcase your photos. You can use Markdown syntax o
 {% fancybox img_url [img_thumbnail] [img_caption] %}
 ```
 
-### Sidebar
+### Sidebar ###
 
 You can put your sidebar in left side, right side or bottom of your site by editing `sidebar` setting.
 
@@ -91,22 +80,17 @@ Landscape provides 5 built-in widgets:
 
 All of them are enabled by default. You can edit them in `widget` setting.
 
-## Development
 
-### Requirements
+### Dependencies ###
 
 - [Grunt] 0.4+
 - Hexo 2.4+
-
-### Grunt tasks
-
-- **default** - Download [Fancybox] and [Font Awesome].
-- **fontawesome** - Only download [Font Awesome].
-- **fancybox** - Only download [Fancybox].
-- **clean** - Clean temporarily files and downloaded files.
 
 [Hexo]: https://hexo.io/
 [Fancybox]: http://fancyapps.com/fancybox/
 [Font Awesome]: http://fontawesome.io/
 [Grunt]: http://gruntjs.com/
 [hexo-generate-feed]: https://github.com/hexojs/hexo-generator-feed
+
+# 1.0.1 2017-12-24-14:13 Restatement for hexo-theme-landscape-wingnut.
+# 1.0.0 2017-12-11-13:37 Default initial install of hexo-theme-landscape 0.0.2.
