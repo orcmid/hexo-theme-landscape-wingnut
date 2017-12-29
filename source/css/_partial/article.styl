@@ -1,4 +1,4 @@
-// article.styl 1.0.1             UTF-8                         dh:2017-12-01
+// article.styl 1.0.2             UTF-8                         dh:2017-12-27
 //               HEXO LANDSCAPE THEME ARTICLE STYLE PARTIAL
 //   source: spanner/themes/landscape/source/css/_partial/article.styl
 
@@ -297,7 +297,7 @@ $article-share-link
   &:hover
     background: color-pinterest
     text-shadow: 0 1px darken(color-pinterest, 20%)
-
+    
 .article-share-google
   @extend $article-share-link
   &:before
@@ -305,6 +305,14 @@ $article-share-link
   &:hover
     background: color-google
     text-shadow: 0 1px darken(color-google, 20%)
+    
+.article-share-linkedin                             // 1.0.2  
+  @extend $article-share-link
+  &:before
+    content: "\f0e1"
+  &:hover
+    background: color-linkedin
+    text-shadow: 0 1px darken(color-linkedin, 20%)
 
 .article-gallery
   background: #000
@@ -360,9 +368,9 @@ $article-gallery-ctrl
     content: "\f054"
     right: 15px*/
     
-
+// 1.0.2 2017-12-27-18:50 Add LinkddIn Share Option pushed by @itsAmr
 // 1.0.1 2017-12-01-09:13 Adjust blockquote to use prevailing font and size,
 //       being just indented main text.  Additional formatting can be in the
 //       MarkDown.
 // 1.0.0 2017-10-25-10:09 Original installed with Hexo setup
-//                      *** end of article.styl ***    
+//                      *** end of article.styl *** 
