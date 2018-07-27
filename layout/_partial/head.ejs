@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- head.ejs 1.0.3                UTF-8                     dh:2017-12-18  
-                     SPANNER WINGNUT HEXO THEME LANDSCAPE 
+  <!-- head.ejs 1.0.4                UTF-8                     dh:2018-07-27
+                     SPANNER WINGNUT HEXO THEME LANDSCAPE
              https://github.com/orcmid/hexo-theme-landscape-wingnut
     -->
   <meta charset="utf-8">
@@ -25,7 +25,8 @@
   }
   %>
   <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0>
+     <!-- 1.0.4 allow scale flexibility for ally -->
   <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
   <% if (theme.rss){ %>
     <link rel="alternate" href="<%= url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml">
@@ -35,11 +36,13 @@
     <% /* REQUIRES .ico form and absolute URL.  BE CAREFUL   1.0.2 */ %>
   <% } %>
   <% if (config.highlight.enable){ %>
-    <!-- Add protocol to fonts.googleapis.com link    1.0.1 -->
-    <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+    <!-- Add protocol to fonts.googleapis.com link    1.0.1 1.0.4 -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   <% } %>
   <%- css('css/style') %>
-  
+
+<% /* 1.0.4 2018-07-27-09:03 Remove maximum-scale per Xaviju ally patch */ %>
+<% /*       and change protocol to HTTPS for fonts.googleapis.com link  */ %>
 <% /* 1.0.3 2017-12-18-15:13 Shorten heading comment for simplicity.    */ %>
 <% /* 1.0.2 2017-12-17-10:15 theme.favicon warning.  It takes more to   */ %>
 <% /*       get right.  https://github.com/audreyr/favicon-cheat-sheet  */ %>
