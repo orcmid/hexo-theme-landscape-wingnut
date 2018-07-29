@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- head.ejs 1.0.4                UTF-8                     dh:2018-07-27
+  <!-- head.ejs 1.0.5                UTF-8                     dh:2018-07-29
                      SPANNER WINGNUT HEXO THEME LANDSCAPE
              https://github.com/orcmid/hexo-theme-landscape-wingnut
     -->
@@ -25,8 +25,9 @@
   }
   %>
   <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0>
-     <!-- 1.0.4 allow scale flexibility for ally -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+     <!-- 1.0.4 1.0.5 allow scale flexibility for ally and align with
+          bootstrap -->
   <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
   <% if (theme.rss){ %>
     <link rel="alternate" href="<%= url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml">
@@ -41,6 +42,8 @@
   <% } %>
   <%- css('css/style') %>
 
+<% /* 1.0.5 2018-07-29-08:12 Adjust viewport to align with landscape    */ %>
+<% /*       theme issue #111 resolution.                                */ %>
 <% /* 1.0.4 2018-07-27-09:03 Remove maximum-scale per Xaviju ally patch */ %>
 <% /*       and change protocol to HTTPS for fonts.googleapis.com link  */ %>
 <% /* 1.0.3 2017-12-18-15:13 Shorten heading comment for simplicity.    */ %>
