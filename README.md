@@ -1,5 +1,7 @@
 # Customization of Hexo-Theme-Landscape for Spanner Wingnut's Muddleware Labs #
 
+## DORMANT PROJECT: Preserved for Future Reference ##
+
 ## What This Is ##
 
 This project is *not* a fork of the [`hexo-theme-landscape`](https://github.com/hexojs/hexo-theme-landscape) GitHub project.
